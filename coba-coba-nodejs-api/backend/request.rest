@@ -1,0 +1,22 @@
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/products/10
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "title": "belibis",
+    "price":10000
+}
+###
+PATCH http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+    "title": "delima",
+    "price":20000
+}
+###
+DELETE http://localhost:3000/products/1
