@@ -20,27 +20,26 @@ export const Register = async (request, response) => {
         password,
         confPassword
     } = request.body;
-    if (password !== confPassword) return response.status(400).json({
-        msg: "Password and Confirm Password don't match"
-    });
+    if (password !== confPassword)
+        return response.status(400).json({
+            msg: "Password and Confirm Password don't match",
+        });
     const salt = await bcrypt.genSalt();
     const hashPassword = await bcrypt.hash(password, salt);
     try {
         await Users.create({
             name: name,
             email: email,
-            password: hashPassword
+            password: hashPassword,
         });
         response.json({
-            msg: "register successful"
+            msg: 'register successful',
         });
     } catch (error) {
         console.log(error);
-
     }
-}
-
-export const Login = async (request, response) => {
+};
+export const login = async (request, response) => {
     try {
         const user = await Users.findAll({
             where: {

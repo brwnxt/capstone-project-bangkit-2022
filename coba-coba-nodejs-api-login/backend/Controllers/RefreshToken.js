@@ -1,7 +1,7 @@
 import Users from "../models/UserModel.js";
 import jwt from "jsonwebtoken";
 
-export const refreshToken = async(request, response) => {
+export const refreshToken = async (request, response) => {
     try {
         const refreshToken = request.cookies.refreshToken;
         if (!refreshToken) return response.sendStatus(401);
@@ -16,10 +16,16 @@ export const refreshToken = async(request, response) => {
             const userId = user[0].id;
             const name = user[0].name;
             const email = user[0].email;
-            const accessToken = jwt.sign({ userId, name, email }, process.env.ACCESS_TOKEN_SECRET, {
-                expiresIn: '30s'
+            const accessToken = jwt.sign({
+                userId,
+                name,
+                email
+            }, process.env.ACCESS_TOKEN_SECRET, {
+                expiresIn: '15s'
             });
-            response.json({ accessToken });
+            response.json({
+                accessToken
+            });
         });
     } catch (error) {
         console.log(error);

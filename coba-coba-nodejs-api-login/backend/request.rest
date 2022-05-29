@@ -1,5 +1,5 @@
 GET http://localhost:5000/users
-Authorization: Bearer
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJJaHNhbnVsQWxpZjIiLCJlbWFpbCI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2NTM4NjYzMzQsImV4cCI6MTY1Mzg2NjM2NH0.RrLJIyOyUsmUQKpkdA6THcIoDBuwlBmL1pnod0MIZuk
 
 ###
 POST  http://localhost:5000/users
@@ -17,6 +17,12 @@ POST  http://localhost:5000/login
 Content-Type: application/json
 
 {
-    "email":"email@gmail.com",
+    "email":"email2@gmail.com",
     "password":"12345"
 }
+
+###
+GET http://localhost:5000/token
+
+###
+DELETE http://localhost:5000/logout
