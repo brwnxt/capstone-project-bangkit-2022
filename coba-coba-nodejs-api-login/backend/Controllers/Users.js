@@ -39,7 +39,7 @@ export const Register = async (request, response) => {
         console.log(error);
     }
 };
-export const login = async (request, response) => {
+export const Login = async (request, response) => {
     try {
         const user = await Users.findAll({
             where: {
