@@ -1,22 +1,25 @@
 GET http://localhost:3000/products
 
 ###
-GET http://localhost:3000/products/10
+GET http://localhost:3000/products/5
 ###
 POST http://localhost:3000/products
 Content-Type: application/json
 
 {
-    "title": "belibis",
-    "price":10000
+    "disease_name": "sasa",
+    "disease_image":"Q3R2R21RQW3DFQF21D",
+    "medicine_advice":"beli jeruk 3"
+
 }
 ###
-PATCH http://localhost:3000/products/1
+PATCH http://localhost:3000/products/4
 Content-Type: application/json
 
 {
-    "title": "delima",
-    "price":20000
+   "disease_name": "sasa",
+    "disease_image":"Q3R2R21RQW3DFQF21D",
+    "medicine_advice":"beli jeruk 4"
 }
 ###
 DELETE http://localhost:3000/products/1

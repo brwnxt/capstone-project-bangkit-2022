@@ -1,19 +1,19 @@
 import express from "express";
 import {
-    getAllProducts,
-    getProductById,
-    createProduct,
-    updateProduct,
-    deleteProduct
+    getAllDiseaseData,
+    getDiseaseDataById,
+    createDiseaseData,
+    updateDiseaseData,
+    deleteDiseaseData
 } from "../controllers/Products.js";
 
 
 const router = express.Router();
 
-router.get('/', getAllProducts);
-router.get('/:id', getProductById);
-router.post('/', createProduct);
-router.patch('/:id', updateProduct);
-router.delete('/:id', deleteProduct);
+router.get('/', getAllDiseaseData);
+router.get('/:id', getDiseaseDataById);
+router.post('/', createDiseaseData);
+router.patch('/:id', updateDiseaseData);
+router.delete('/:id', deleteDiseaseData);
 
 export default router;

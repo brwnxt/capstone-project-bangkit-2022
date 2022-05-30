@@ -1,6 +1,6 @@
 import express from "express";
 import db from "./config/database.js ";
-import productRoutes from "./routes/index.js";
+import DiseaseDataRoutes from "./routes/index.js";
 
 const app = express();
 
@@ -12,6 +12,6 @@ try {
 }
 
 app.use(express.json());
-app.use('/products', productRoutes);
+app.use('/products', DiseaseDataRoutes);
 
 app.listen(3000, () => console.log('Server running at port 3000'));

@@ -1,9 +1,9 @@
-import Product from "../models/productModel.js";
+import Disease from "../models/diseaseModel.js";
 
-export const getAllProducts = async (req, res) => {
+export const getAllDiseaseData = async (req, res) => {
     try {
-        const products = await Product.findAll();
-        res.json(products);
+        const diseases = await Disease.findAll();
+        res.json(diseases);
     } catch (error) {
         res.json({
             message: error.message
@@ -11,27 +11,27 @@ export const getAllProducts = async (req, res) => {
     }
 }
 
-export const getProductById = async (req, res) => {
+export const getDiseaseDataById = async (req, res) => {
     try {
-        const product = await Product.findAll({
+        const disease = await Disease.findAll({
             where: {
                 id: req.params.id
             }
         });
-        res.json(product[0]);
+        res.json(disease[0]);
     } catch (error) {
         res.json({
             message: error.message
         });
     }
 }
-export const createProduct = async (req, res) => {
+export const createDiseaseData = async (req, res) => {
     try {
-        await Product.create(
+        await Disease.create(
             req.body
         );
         res.json({
-            "message": "Product Created"
+            "message": "Disease Created"
         });
     } catch (error) {
         res.json({
@@ -40,9 +40,9 @@ export const createProduct = async (req, res) => {
     }
 }
 
-export const updateProduct = async (req, res) => {
+export const updateDiseaseData = async (req, res) => {
     try {
-        await Product.update(
+        await Disease.update(
             req.body, {
                 where: {
                     id: req.params.id
@@ -50,7 +50,7 @@ export const updateProduct = async (req, res) => {
             }
         );
         res.json({
-            "message": "Product Updated"
+            "message": "Disease Updated"
         });
     } catch (error) {
         res.json({
@@ -59,13 +59,12 @@ export const updateProduct = async (req, res) => {
     }
 }
 
-export const deleteProduct = async (req, res) => {
+export const deleteDiseaseData = async (req, res) => {
     try {
-        await Product.destroy({
-            Where: {
+        await Disease.destroy({
+            where: {
                 id: req.params.id,
-            },
-            truncate: true
+            }
         })
     } catch (error) {
         res.json({

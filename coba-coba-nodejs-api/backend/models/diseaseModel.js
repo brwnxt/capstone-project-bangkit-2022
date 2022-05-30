@@ -7,19 +7,22 @@ const {
     DataTypes
 } = Sequelize;
 
-const Product = db.define('products', {
+const Disease = db.define('disease', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true
     },
-    title: {
+    disease_name: {
         type: DataTypes.STRING
     },
-    price: {
-        type: DataTypes.DOUBLE
+    disease_image: {
+        type: DataTypes.TEXT
+    },
+    medicine_advice: {
+        type: DataTypes.TEXT
     }
 }, {
     freezeTableName: true
 });
 
-export default Product;
+export default Disease;
