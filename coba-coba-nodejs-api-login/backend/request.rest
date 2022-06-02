@@ -1,13 +1,13 @@
 GET http://localhost:5000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJJaHNhbnVsQWxpZjIiLCJlbWFpbCI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2NTM4NjczMTUsImV4cCI6MTY1Mzg2NzM0NX0.sOcWGOor2gWac8PZrBL0qdgdKNQVOX9UGa30MYfnWlA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsIm5hbWUiOiJJaHNhbnVsQWxpZjQ1IiwiZW1haWwiOiJlbWFpbDIxQGdtYWlsLmNvbSIsImlhdCI6MTY1MzkxMDA1MSwiZXhwIjoxNjUzOTEwMDgxfQ.baSU-6x25cQSjIAxDfxysmwEQ8SOrZL5hGAjUOcx_Fs
 
 ###
-POST  http://localhost:5000/users
+POST  http://localhost:5000/register
 Content-Type: application/json
 
 {
-    "name": "IhsanulAlif2",
-    "email": "email2@gmail.com",
+    "name": "IhsanulAlif45",
+    "email": "email21@gmail.com",
     "password": "12345",
     "confPassword": "12345"
 }
@@ -17,7 +17,7 @@ POST  http://localhost:5000/login
 Content-Type: application/json
 
 {
-    "email":"email2@gmail.com",
+    "email":"email21@gmail.com",
     "password":"12345"
 }
 

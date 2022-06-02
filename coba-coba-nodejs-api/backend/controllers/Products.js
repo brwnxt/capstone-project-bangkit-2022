@@ -27,11 +27,26 @@ export const getDiseaseDataById = async (req, res) => {
 }
 export const createDiseaseData = async (req, res) => {
     try {
-        await Disease.create(
-            req.body
-        );
+        const {disease_name, medicine_advice} = req.body;
+        const disease_image = req.file.path;
+        console.log(disease_image);
+
+        const payload = {
+            disease_name: disease_name,
+            disease_image: disease_image,
+            medicine_advice: medicine_advice
+        }
+
+        if(!payload) {
+            res.json({message: "Invalid Data!"});
+        } else if(payload.length < 0) {
+            res.json({message: "Data can't be empty."})
+        }
+        const insertDB = await Disease.create(payload);
+
         res.json({
-            "message": "Disease Created"
+            "message": "Disease Created",
+            "data": insertDB
         });
     } catch (error) {
         res.json({

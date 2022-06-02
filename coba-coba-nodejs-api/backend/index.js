@@ -1,6 +1,7 @@
 import express from "express";
 import db from "./config/database.js ";
 import DiseaseDataRoutes from "./routes/index.js";
+import cors from "cors";
 
 const app = express();
 
@@ -11,7 +12,9 @@ try {
     console.error('Connection error', error);
 }
 
+app.use(cors());
 app.use(express.json());
-app.use('/products', DiseaseDataRoutes);
+app.use(express.urlencoded({ extended: true }));
+app.use('/diseases', DiseaseDataRoutes);
 
 app.listen(3000, () => console.log('Server running at port 3000'));
