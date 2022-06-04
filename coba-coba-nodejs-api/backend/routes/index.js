@@ -7,7 +7,7 @@ import {
   createDiseaseData,
   updateDiseaseData,
   deleteDiseaseData,
-} from "../controllers/Products.js";
+} from "../controllers/Diseases.js";
 
 const router = express.Router();
 
