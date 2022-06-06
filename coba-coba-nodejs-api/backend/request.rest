@@ -22,4 +22,4 @@ Content-Type: application/json
     "medicine_advice":"beli jeruk 4"
 }
 ###
-DELETE http://localhost:3000/diseases/10
+DELETE http://localhost:3000/diseases/13
