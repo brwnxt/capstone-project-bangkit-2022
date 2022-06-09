@@ -45,7 +45,7 @@ const router = express.Router();
 router.get("/", getAllDiseaseData.getAllDiseaseData);
 router.get("/:id", getDiseaseDataById.getDiseaseDataById);
 router.post("/", createDiseaseData.createDiseaseData);
-router.post("/upload", uploadFile.uploadFile);
+router.post("/uploads", uploadFile.uploadFile);
 router.patch("/:id", updateDiseaseData.updateDiseaseData);
 router.delete("/:id", deleteDiseaseData.deleteDiseaseData);
 

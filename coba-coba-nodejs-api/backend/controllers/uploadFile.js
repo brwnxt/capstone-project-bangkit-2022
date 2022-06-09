@@ -5,13 +5,16 @@ const processFile = require("./processFile.js");
 // import {
 //     format
 // } from "util";
-const format = require("util");
+const {
+    format
+} = require("util");
 // import {
 //     Storage
 // } from "@google-cloud/storage";
 const {
     Storage
 } = require("@google-cloud/storage");
+
 
 // Instantiate a storage client with credentials
 const storage = new Storage({
