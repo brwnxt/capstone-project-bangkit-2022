@@ -1,6 +1,3 @@
-// import {
-//     Sequelize
-// } from "sequelize";
 const Sequelize = require("sequelize");
 
 const db = new Sequelize('diseasedata_db', 'root', '123', {
