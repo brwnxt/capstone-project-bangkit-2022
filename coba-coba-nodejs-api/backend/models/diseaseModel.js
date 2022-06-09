@@ -1,7 +1,9 @@
-import {
-    Sequelize
-} from "sequelize";
-import db from "../config/database.js"
+// import {
+//     Sequelize
+// } from "sequelize";
+const Sequelize = require("sequelize");
+// import db from "../config/database.js"
+const db = require("../config/database.js");
 
 const {
     DataTypes
@@ -16,7 +18,7 @@ const Disease = db.define('disease', {
     disease_name: {
         type: DataTypes.STRING
     },
-    disease_image: {
+    disease_image_url: {
         type: DataTypes.STRING
     },
     medicine_advice: {
@@ -26,4 +28,4 @@ const Disease = db.define('disease', {
     freezeTableName: true
 });
 
-export default Disease;
+module.exports = Disease;
