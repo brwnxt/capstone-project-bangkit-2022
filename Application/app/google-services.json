@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "809300599484",
+    "project_id": "gleaming-realm-351216",
+    "storage_bucket": "gleaming-realm-351216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809300599484:android:97e0541bcbb58fbfe0a6b9",
+        "android_client_info": {
+          "package_name": "com.example.disease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809300599484-d3ntvlr04b8iap5ucnk35c54sjb33f6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.disease",
+            "certificate_hash": "98819f4c34a89d74a667ec46e9a7ff30105974f6"
+          }
+        },
+        {
+          "client_id": "809300599484-q7lm1aqbousbh1m1nb38stmgokp0phri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtGnKPkS7blQhOtyK5B0ag2p-Z5UpnQHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809300599484-q7lm1aqbousbh1m1nb38stmgokp0phri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

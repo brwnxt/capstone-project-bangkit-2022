@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Sisdec</string>
+    <string name="healthy_ski" translatable="false">HEALTHY SKIN\nBEAUTIFUL YOU</string>
+    <string name="kamera">Kamera</string>
+    <string name="upload">Mengunggah</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="panduan">Panduan</string>
+    <string name="camera" translatable="false">Camera</string>
+
+    //deskripsi
+    <string name="namapenyakit" translatable="false">%s</string>
+    <string name="gambar" translatable="false">%s</string>
+    <string name="descpenyakit" translatable="false">%s</string>
+    <string name="obat">Perawatan : %s</string>
+
+    <string-array name="data_namapenyakit">
+        <item>Blackhead</item>
+        <item>Eksim</item>
+        <item>Flek Hitam</item>
+        <item>Herves</item>
+        <item>Jerawat</item>
+        <item>Milia</item>
+        <item>Panu</item>
+        <item>Rosacea</item>
+        <item>Tinea Fasialis</item>
+    </string-array>
+
+    <string-array name="data_avatar">
+        <item>@drawable/blackhead</item>
+        <item>@drawable/eksim</item>
+        <item>@drawable/flekhitam</item>
+        <item>@drawable/herves</item>
+        <item>@drawable/jerawat</item>
+        <item>@drawable/milia</item>
+        <item>@drawable/panu</item>
+        <item>@drawable/rosacea</item>
+        <item>@drawable/t</item>
+    </string-array>
+
+    <string-array name="data_descpenyakit">
+        <item>Blackhead atau komedo hitam adalah tonjolan kecil berwarna gelap yang tumbuh di pori-pori kulit. Blackhead umumnya muncul di bagian wajah, tetapi bisa juga tumbuh di bagian tubuh lainnya, seperti punggung, dada, leher, bahu, dan tangan.</item>
+        <item>Eksim atopik atau lebih dikenal sebagai eksim adalah peradangan pada kulit yang menyebabkan munculnya rasa gatal-gatal. Rasa gatal ini biasanya disertai dengan kulit yang memerah, keringan pecah-pecah. Gejala eksim atopik cenderung muncul kembali dan kemudian hilang serta bisa berlangsung dalam jangka panjang.</item>
+        <item>Flek hitam adalah masalah kulit yang ditandai dengan munculnya bintik hitam pada wajah, lengan, bahu dan bagian tubuh lainnya. Flek hitam sendiri merupakan kumpulan pigmen alami, atau melanin, yang berisi melanosome.</item>
+        <item>Herpes adalah penyakit yang ditandai dengan munculnya lepuhan berwarna kemerahan dan berisi cairan pada kulit. Penyakit ini termasuk dalam penyakit jangka panjang, karena virusnya bisa bertahan seumur hidup di dalam tubuh seseorang.</item>
+        <item>Jerawat adalah gangguan pada kulit. Kondisi ini berhubungan dengan produksi minyak (sebum) yang terjadi secara berlebihan. Minyak berlebih bisa menyumbat pori-pori kulit. Pada setiap pori-pori kulit, terdapat folikel yang terdiri dari kelenjar minyak dan rambut.</item>
+        <item>Milia adalah benjolan kecil berwarna putih yang umumnya tumbuh di bagian wajah, seperti hidung, pipi, dan di bawah mata. Milia bisa dialami oleh siapa saja, tetapi paling sering dialami oleh bayi yang baru lahir. Milia umumnya tidak berbahaya dan tidak perlu diobati karena dapat hilang dengan sendirinya.</item>
+        <item>Panu adalah infeksi jamur pada kulit yang disebabkan oleh golongan jamur Malassezia. Infeksi jamur ini menyebabkan gangguan pada pigmen kulit sehingga menimbulkan bercak yang berwarna lebih terang atau lebih gelap di permukaan kulit.</item>
+        <item>Rosacea merupakan salah satu penyakit kulit yang umum terjadi pada wanita dengan usia 30 hingga 50 tahun. Penyakit ini menyebabkan kulit pada bagian hidung, pipi, dagu, dan dahi menjadi kemerahan. Rosacea mungkin juga dapat menimbulkan benjolan kecil, merah, dan berisi nanah.</item>
+        <item>Tinea fasialis adalah infeksi jamur superfisial pada area kulit wajah akibat dermatofita. Dermatofita dikenal juga dengan nama jamur keratinofilik karena memiliki kemampuan untuk menginvasi jaringan yang memiliki keratin, seperti rambut, kulit, dan kuku.</item>
+    </string-array>
+
+    <string-array name="data_obat">
+        <item>Menggunakan produk jerawat dapat membantu mengeringkan kelebihan minyak dan mendorong pengelupasan. Menggunakan pembersih yang lembut dan pelembap bebas minyak juga dapat membantu</item>
+        <item>Mandi dengan air hangat, Mengoleskan pelembap setelah mandi, Penggunaan antihistamin, Penggunaan kortikosteroid oles.</item>
+        <item>Memnggunakan tabir surya (sunscreen), Krim pemutih, Krim retinoid,  Terapi laser</item>
+        <item>Perawatan dapat mencakup obat antivirus seperti acyclovir atau valacyclovir.</item>
+        <item>Anti-inflamasi, Turunan vitamin A, Antibiotik, Antiseptik topikal, Benzoil peroksida, asam salisilat dan Sabun antibakteri</item>
+        <item>Milia biasanya menghilang sendiri dalam beberapa minggu pada bayi baru lahir, tetapi dapat bertahan pada anak-anak yang lebih tua dan orang dewasa. Milia biasanya tidak perlu diangkat.</item>
+        <item>Pengobatan seperti krim, losion, atau sampo antijamur biasanya efektif. Namun, perubahan warna kulit dapat berlangsung selama beberapa minggu atau bulan.</item>
+        <item>Tabir surya, Terapi cahaya, Pelembab, Air mata buatan, Antibiotik, Turunan vitamin A, Antiseptik topikal danTerapi laser</item>
+        <item>Untuk mengatasi tinea fasialis Menggunakan obat antijamur oles, dokter mungkin akan meresepkan obat antijamur tablet yang diminum, seperti terbinafine dan itraconazole. Pengobatan tinea fasialis dapat memakan waktu cukup lama, yaitu sekitar 2–4 minggu.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="caracara">1. Install Aplikasi \n2. Izinkan penggunaan kamera dan penyimpanan \n3. Menu deteksi penyakit dengan kamera dapat secara langsung mendeteksi penyakit kulit dengan mengarahkan kamera ke objek \n4. Menu deteksi penyakit kulit dari galeri akan mengambil gambar yang sudah disimpan digaleri untuk diklarifikasi \n5. Menu Panduan berisi informasi panduan penggunaan aplikasi \n6. Menu Logout untuk keluar dari akun</string>
+    <string name="panduan_aplikasi">Panduan Aplikasi</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="tentang">Tentang</string>
+    <string name="keluar">Keluar</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="register" translatable="false">Register</string>
+    <string name="yuk_cek_kesehatan_kulit_n_mukamu_hari_ini">Yuk! Cek kesehatan kulit \n mukamu hari ini!</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="daftar">Daftar</string>
+    <string name="galeri">Galeri</string>
+    <string name="tergolong_sebagai">Tergolong sebagai:</string>
+    <string name="konfidensi">Konfidensi:</string>
+    <string name="desc_about">Aplikasi ini merupakan aplikasi yang dapat digunakan untuk mendeteksi penyakit kulit. Melalui aplikasi ini, dapat membantu masyarakat yang mengalami kesulitan dalam mengenal jenis penyakit dan penanganan terhadap penyakit kulit yang ia alami, terutama dalam pertolongan pertama. Selain itu, kita juga mengetahui bahwa kulit kita sangat sensitif sekali dengan berbagai hal baik itu dari alam maupun dari dalam diri kita.</string>
+    <string name="about">Tentang</string>
+</resources>

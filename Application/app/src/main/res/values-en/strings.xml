@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sisdec</string>
+    <string name="kamera">Camera</string>
+    <string name="upload">Upload</string>
+    <string name="deskripsi">Description</string>
+    <string name="panduan">Guide</string>
+    <string name="obat">Treatment : %s</string>
+    <string name="caracara">1. Install the Application \n2. Allow camera and storage use \n3. The disease detection menu with the camera can directly detect skin diseases by pointing the camera at the object \n4. The skin disease detection menu from the gallery will take pictures that have been saved in the gallery for clarification \n5. The Guide menu contains information on how to use the application \n6. Logout menu to exit the account</string>
+    <string name="panduan_aplikasi">Application Guide</string>
+    <string name="bahasa">Language</string>
+    <string name="tentang">About</string>
+    <string name="keluar">Log Out</string>
+    <string name="yuk_cek_kesehatan_kulit_n_mukamu_hari_ini">Come on! Check skin health your face today!</string>
+    <string name="pengaturan">Setting</string>
+    <string name="daftar">Sign Up</string>
+    <string name="galeri">Gallery</string>
+    <string name="tergolong_sebagai">Classified as:</string>
+    <string name="konfidensi">Confidence:</string>
+    <string name="desc_about">This application is an application that can be used to detect skin diseases. Through this application, it can help people who have difficulty in recognizing the type of disease and the treatment of skin diseases that they experience, especially in first aid. In addition, we also know that our skin is very sensitive to various things, both from nature and from within us.</string>
+    <string name="about">About</string>
+</resources>

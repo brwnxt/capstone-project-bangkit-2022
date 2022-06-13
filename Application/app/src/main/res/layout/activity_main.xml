@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bghome"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="@drawable/bghome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/tvhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bghome"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="@string/yuk_cek_kesehatan_kulit_n_mukamu_hari_ini"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/ibkamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvhome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/camera" />
+
+    <TextView
+        android:id="@+id/tvkamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvhome"
+        android:text="@string/kamera"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/ibdeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/deskrip"
+        android:layout_below="@+id/ibkamera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvdeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ibkamera"
+        android:text="@string/deskripsi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/ibpanduan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pandu"
+        android:layout_below="@+id/ibdeskripsi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvpanduan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ibdeskripsi"
+        android:text="@string/panduan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/ibpengaturan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pengaturan"
+        android:layout_below="@+id/ibpanduan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvpengaturan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ibpanduan"
+        android:text="@string/pengaturan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
