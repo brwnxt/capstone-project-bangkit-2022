@@ -16,3 +16,14 @@ altogether with the calendar invitation)</p>
 <p>●	(MD)A7315F2752	Ageng Raharjo			Universitas Sriwijaya</p>
 <p>●	(CC)C2009F0917	Ihsanul Alif				Universitas Gunadarma</p>
 
+<h2>Steps in making an application</h2>
+<p>Data preparation process on Google Colab</p>
+<p>Data generation and preprocessing</p>
+<p>Build and training model</p>
+<p>Evaluation the model</p>
+<p>Convert model into TFLite and saving model</p>
+<p>Deploying android app</p>
+<p>Import ML model into Android</p>
+<p>Preparing authentication on Firebase</p>
+<p>Preparing request data to API on Cloud</p>
+<p>Preparing infrastructure Cloud and process request API</p>
